@@ -1,0 +1,7 @@
+version: "3.1"
+
+stories:
+- story: respond to ask_day
+  steps:
+    - intent: ask_day
+    - action: action_tell_day

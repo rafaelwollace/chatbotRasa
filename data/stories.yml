@@ -1,0 +1,9 @@
+
+version: "3.1"
+
+stories:
+- story: respond to ask_time
+  steps:
+    - intent: ask_time
+    - action: action_tell_time
+        

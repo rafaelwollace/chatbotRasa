@@ -1,0 +1,12 @@
+
+version: "3.1"
+
+nlu:
+- intent: ask_time
+  examples: |
+    - que horas são?
+    - você sabe que horas são?
+    - pode me dizer as horas?
+    - me informe o horário atual
+    - qual o horário agora?
+        
